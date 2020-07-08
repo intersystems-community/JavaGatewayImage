@@ -29,3 +29,7 @@ COPY --from=builder /tmp/app/jar/*.jar $GWDIR/
 # Debugging
 
 Uncomment 3 lines in docker-compose to enable remote debugging on port 5005.
+
+# Example
+
+Example of the Java Library built from this image is available [here](https://github.com/intersystems-community/pex-demo).

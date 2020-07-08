@@ -25,3 +25,7 @@ FROM intersystemscommunity/jgw:latest
 
 COPY --from=builder /tmp/app/jar/*.jar $GWDIR/
 ```
+
+# Debugging
+
+Uncomment 3 lines in docker-compose to enable remote debugging on port 5005.

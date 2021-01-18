@@ -1,6 +1,6 @@
 # JavaGatewayImage
 
-JavaGateway in a docker image. This image is published as `intersystemscommunity/jgw:latest`.
+JavaGateway in a docker image. This image is published as `intersystemsdc/jgw:latest`.
 
 # Containerising your Java Gateway library
 

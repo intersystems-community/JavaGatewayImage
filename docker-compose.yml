@@ -1,7 +1,7 @@
 version: "2.2"
 services:
   jgw:
-    image: intersystemsdc/jgw:latest
+    image: intersystemsdc/jgw:2021.2
 #    environment:
 #      - JVMARGS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005
     build:

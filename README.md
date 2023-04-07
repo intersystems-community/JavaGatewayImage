@@ -7,7 +7,7 @@ JavaGateway in a docker image. This image is published as `intersystemsdc/jgw:la
 As simple as:
 
 ```
-FROM openjdk:8 AS builder
+FROM eclipse-temurin:8-jre-alpine AS builder
 
 ARG APP_HOME=/tmp/app
 
